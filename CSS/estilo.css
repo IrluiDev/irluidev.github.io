@@ -1,0 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 450px);
+
+.Portada {
+    width: 1050px;
+    height:380px;
+    margin: -400;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 30;
+}
+
+
+.Portada img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* ajusta la imagen a la caja pero en su mejor 
+    resolución, maneniendo la resolución */
+    object-position: center;
+}
