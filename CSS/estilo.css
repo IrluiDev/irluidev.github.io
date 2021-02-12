@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
- @media only screen and (max-width: 1080px); 
+ @media only screen and (max-width: 450px); 
 
 .Portada {
     width: 1050px;
