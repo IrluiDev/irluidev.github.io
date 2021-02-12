@@ -58,5 +58,5 @@ body {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    background-color:  rgba(240, 245, 246, 0.31);
+    background-color: red;
 }
