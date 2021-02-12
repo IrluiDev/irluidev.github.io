@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-//* @media only screen and (max-width: 450px); */
+ @media only screen and (max-width: 1080px); 
 
 .Portada {
     width: 1050px;
@@ -23,4 +23,40 @@ body {
     object-fit: contain; /* ajusta la imagen a la caja pero en su mejor 
     resolución, maneniendo la resolución */
     object-position: center;
+}
+
+.Portada img:hover {
+    background-image: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/119039739_114940047005593_8000439334529020138_n.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=3o2FVgN3KOMAX9zVxxz&_nc_ht=scontent-mia3-2.xx&oh=2f52c85635d4fb34a01f374b96da6462&oe=5F80E071');
+    background-size: 100%;
+    border: 2px solid red;
+   }
+
+.Menu {
+    width: 1050px;
+    height:40px;
+    background-color: rgba(11, 150, 181, 0.489);
+    display: inline-flex;
+
+}
+.Menu_p {
+    color: rgb(3, 62, 149);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 10%;
+    margin: 6px;
+    margin-bottom: 0px;
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:  rgba(240, 245, 246, 0.31);
 }
