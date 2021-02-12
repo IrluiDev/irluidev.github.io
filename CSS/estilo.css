@@ -35,8 +35,8 @@
 }
 
 .cabecera header img {
-    height: 28px;
-    width: 10;
+    height: 100px;
+    width: 100;
 }
 .cabecera header ul{
     display: inline-flex;
