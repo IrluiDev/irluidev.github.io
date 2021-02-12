@@ -51,6 +51,21 @@ body {
 
 }
 
+.Contendor {
+    width: 100%;
+    height:auto;
+    padding-top: 400px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
 .Pie{
     width: 100%;
     height: auto;
