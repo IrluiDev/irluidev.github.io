@@ -15,6 +15,7 @@
     background: rgba(180, 179, 179, 0.138);
 }
 
+@media (max-width: 600px) and (min-width: 379px){
 .cabecera{
     margin: 0px;
     height: 100%;
@@ -26,6 +27,7 @@
     align-content: center;
 
 }
+
 
 .cabecera header {
     height: 100%;
@@ -78,7 +80,6 @@
     flex-flow: column wrap;
     align-items: flex-start;
 }
-
 /*MAIN MENU*/
 .menu-main{
     height: 45px;
@@ -374,7 +375,7 @@ footer p{
     font-size: 15px;
     font-family: monospace;
 }
-
+}
 
 @media (max-width: 600px) and (min-width: 379px){
     @font-face {
@@ -449,7 +450,6 @@ footer p{
     width: auto;
     color: #2b2b2b;
     text-align: center;
-    background-size: 100%;
     background: linear-gradient(70deg, #c85c22, #dea153, #d88d35);
 }
 
