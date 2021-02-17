@@ -23,7 +23,7 @@
     display: inline-flex;
     justify-content: center;
     align-content: center;
-    background: url(cabecera.jpg);
+    background: url(/cabecera.jpg);
 }
 .cabecera header {
     height: 100%;
