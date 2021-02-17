@@ -26,7 +26,7 @@
 
 }
 
-.cabecera .imagen__Principal{
+.imagen__Principal img {
     margin: 0px;
     height: 100%;
     padding: 0px;
