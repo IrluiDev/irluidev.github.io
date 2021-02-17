@@ -159,6 +159,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background: linear-gradient(70deg, #c85c22, #dea153, #d88d35);
 }
 
 .dashboard__Principal h2{
