@@ -440,14 +440,12 @@ footer p{
     font-family: 'Helvetica Neue', sans-serif;
 }
 
-
-
 .dashboard__Principal h2{
     font-size: 18px;
 }
 
 .dashboard__Principal ul{
-    height: 100%;
+    height: auto;
     display: block;
     justify-content: center;
     align-self: center;
