@@ -427,7 +427,7 @@ footer p{
     background-size: cover;
     position: absolute;
     overflow: hidden;
-    background: url(/cabecera.jpg);
+    background: url(/cabeceraPhone.jpg);
 }
 
 .imagen__Principal h1{
