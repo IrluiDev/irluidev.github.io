@@ -430,11 +430,7 @@ footer p{
     position: relative;
 }
 .imagen__Principal img{
-    max-height: 100%;
-    width: 100%;
-    background-size: cover;
-    position: absolute;
-    overflow: hidden;
+
     background: url(/cabeceraPhone.jpg);
 }
 
