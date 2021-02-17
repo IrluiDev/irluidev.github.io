@@ -116,7 +116,7 @@
     background-color:  rgba(0,0,0, .1);
 }
 /*FIN MAIN MENU */
-@media (max-width: 1536px) and (min-width: 799px){
+
 /* MEDIA CENTRAL */
 .imagen__Principal{
     margin: 0px;
@@ -374,7 +374,7 @@ footer p{
     font-size: 15px;
     font-family: monospace;
 }
-}
+
 
 @media (max-width: 600px) and (min-width: 379px){
     @font-face {
