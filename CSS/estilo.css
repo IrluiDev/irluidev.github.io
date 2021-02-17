@@ -15,14 +15,15 @@
     background: rgba(180, 179, 179, 0.138);
 }
 .cabecera{
-    margin: 0px;
-    height: 100%;
-    padding: 0px;
-    width: 100%; 
-    background-color: #f6f6f6;
+    position: absolute;
+    width: 414px;
+    height: 435px;
+    left: -1px;
+    top: 150px; 
     display: inline-flex;
     justify-content: center;
     align-content: center;
+    background: url(cabecera.jpg);
 }
 .cabecera header {
     height: 100%;
