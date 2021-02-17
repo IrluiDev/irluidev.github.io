@@ -215,6 +215,7 @@ ul, li{
     padding: 30px 40px 20px 50px;
     height: auto;
     width: auto;
+    background: linear-gradient(70deg, #c85c22, #dea153, #ffff, #d88d35, #c85c22);
     background-color: rgb(224, 215, 210);
 }
 .downloader__Paymethod{
