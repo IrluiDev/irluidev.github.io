@@ -33,6 +33,7 @@
     width: 100%; 
     background: url(/cabecera.jpg);
 }
+
 .cabecera header {
     height: 100%;
     width: 100%;
@@ -426,6 +427,7 @@ footer p{
     background-size: cover;
     position: absolute;
     overflow: hidden;
+    background: url(/cabecera.jpg);
 }
 
 .imagen__Principal h1{
