@@ -1,4 +1,4 @@
-let viewportWidth = window.width();
+let viewportWidth = width();
 let viewportHeight = window.height();
 
 console.log(viewportWidth);
