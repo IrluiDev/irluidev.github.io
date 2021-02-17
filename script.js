@@ -9,7 +9,7 @@ let hola = "Hola";
 console.log(hola);
 
 if (ancho >= 768 && alto >= 1024){
-    console.log(hola)
+    console.log(hola);
     if (ancho == 864 && alto == 1536){
         let imagen = document.getElementById("#imagenCentral");
         console.log("Hola")
