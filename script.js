@@ -9,7 +9,8 @@ let hola = "Hola";
 
 if (ancho >= 768 && alto >= 1024){
     if (ancho == 864 && alto == 1536){
-        let imagen = document.querySelector("#imagenCentral");
-        console.log(imagen + '/br' + "ya ")
+        let elemento = document.querySelector("#imagenCentral");
+        let imagen = elemento.setAttribute("xxx", imagenCabecera);
+        console.log(imagen + '/br' + "jejej ")
     }
 }
