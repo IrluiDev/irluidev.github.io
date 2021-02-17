@@ -447,19 +447,18 @@ footer p{
     width: auto;
     color: #2b2b2b;
     text-align: center;
-}
-
-@media (max-width: 396px) and (min-width: 320px){
-.dashboard__Principal{
     background: linear-gradient(70deg, #c85c22, #dea153, #d88d35);
 }
-}
+
+
+
 
 .dashboard__Principal h2{
     font-size: 18px;
 }
 
 .dashboard__Principal ul{
+    height: 100%;
     display: block;
     justify-content: center;
     align-self: center;
