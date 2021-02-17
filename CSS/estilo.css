@@ -78,7 +78,7 @@
     flex-flow: column wrap;
     align-items: flex-start;
 }
-@media (max-width: 1536px) and (min-width: 799px){
+
 /*MAIN MENU*/
 .menu-main{
     height: 45px;
@@ -116,7 +116,7 @@
     background-color:  rgba(0,0,0, .1);
 }
 /*FIN MAIN MENU */
-
+@media (max-width: 1536px) and (min-width: 799px){
 /* MEDIA CENTRAL */
 .imagen__Principal{
     margin: 0px;
