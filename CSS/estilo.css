@@ -23,6 +23,10 @@
     display: inline-flex;
     justify-content: center;
     align-content: center;
+
+}
+
+.cabecera .imagen__Principal{
     background: url(/cabecera.jpg);
 }
 .cabecera header {
