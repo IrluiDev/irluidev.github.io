@@ -155,15 +155,12 @@
     padding: 0px;
     color: rgb(8, 8, 8);
     width: 100%;
-    height: auto;
-    background-color: #dddddd;
     display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-size: 50%;
-    background: linear-gradient(70deg, #c85c22, #dea153, #ffff, #d88d35, #c85c22);
+    background: linear-gradient(0deg, #fff, #e0d7d2 15%, #d88d35, #ff6919 95%);
 }
 
 .dashboard__Principal h2{
@@ -212,11 +209,10 @@ ul, li{
 
 .contendor__Final{
     margin: 0px;
-    padding: 30px 40px 20px 50px;
+    padding: 25px 40px 20px 50px;
     height: auto;
     width: auto;
-    background: linear-gradient(70deg, #c85c22, #dea153, #ffff, #d88d35, #c85c22);
-    background-color: rgb(224, 215, 210);
+    background-color: #fff
 }
 .downloader__Paymethod{
     margin: 0px;
@@ -369,7 +365,7 @@ footer{
     z-index: 60;
     width: auto;
     height: 100%;
-    color:rgb(185, 176, 171);
+    color:#b9b0ab;
 }
 
 footer p{
