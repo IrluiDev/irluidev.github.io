@@ -41,6 +41,7 @@
     height: 10%;
     width: 10%;
 }
+
 .cabecera header ul{
     display: inline-flex;
     justify-content: left;
@@ -423,6 +424,10 @@ footer p{
     position: relative;
 }
 
+.cabecera header img {
+    height: 10%;
+    width: 10%;
+}
 
 .imagen__Principal h1{
     margin: 0px;
