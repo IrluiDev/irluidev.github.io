@@ -3,8 +3,8 @@ let imagenPhone = "cabeceraPhone";
 let viewportWidth = window.screen.height;
 let viewportHeight = window.screen.width;
 
-let ancho = console.log(viewportWidth);
-let alto = console.log(viewportHeight); 
+console.log(viewportWidth);
+console.log(viewportHeight); 
 let hola = "Hola";
 console.log("ancho:" + ancho);
 
