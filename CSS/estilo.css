@@ -7,6 +7,7 @@
     url(“font/fonts/LatoLatin-Hairline.ttf”) format(“truetype”);
 }
 
+@media (max-width: 1536px) and (min-width: 769px){
     body{
     margin:0px;
     padding: 0px;
@@ -378,7 +379,7 @@ footer p{
     font-size: 15px;
     font-family: monospace;
 }
-
+}
 @media (max-width: 768px) and (min-width: 300px){
 /*MAIN MENU*/
 .menu-main{
@@ -411,16 +412,7 @@ footer p{
 }
 /*FIN MAIN MENU */
     /* MEDIA CENTRAL */
-.imagen__Principal{
-    margin: 0px;
-    width: 100%;
-    height: 153.43px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
+
 .imagen__Principal img{
     max-height: 100%;
     width: 100%;
