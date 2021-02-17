@@ -7,7 +7,6 @@ console.log(viewportWidth +  "ancho");
 console.log(viewportHeight + "alto"); 
 let hola = "Hola";
 
-console.log("ancho:" + ancho);
 
     if (ancho == 864 && alto == 1536){
         let imagen = document.getElementById("#imagenCentral");
