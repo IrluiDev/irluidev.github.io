@@ -446,7 +446,7 @@ footer p{
     width: auto;
     color: #2b2b2b;
     text-align: center;
-    background: linear-gradient(70deg, black, white);
+    background: linear-gradient(70deg, #c85c22, #d88d35);
 }
 
 .dashboard__Principal h2{
