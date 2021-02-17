@@ -14,8 +14,6 @@
     width: 100%;
     background: rgba(180, 179, 179, 0.138);
 }
-
-@media (max-width: 600px) and (min-width: 379px){
 .cabecera{
     margin: 0px;
     height: 100%;
@@ -375,9 +373,8 @@ footer p{
     font-size: 15px;
     font-family: monospace;
 }
-}
 
-@media (max-width: 600px) and (min-width: 379px){
+@media (max-width: 768px) and (min-width: 300px){
     @font-face {
         font-family: "LatoLatinWeb";
         src: url(“font/fonts/LatoLatin-Hairline.eot”);
