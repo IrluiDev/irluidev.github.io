@@ -15,7 +15,6 @@
     background: rgba(180, 179, 179, 0.138);
 }
 
-@media (max-width: 1536px) and (min-width: 799px){
 .cabecera{
     margin: 0px;
     height: 100%;
@@ -27,7 +26,6 @@
     align-content: center;
 
 }
-
 
 .cabecera header {
     height: 100%;
@@ -80,6 +78,7 @@
     flex-flow: column wrap;
     align-items: flex-start;
 }
+@media (max-width: 1536px) and (min-width: 799px){
 /*MAIN MENU*/
 .menu-main{
     height: 45px;
