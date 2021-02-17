@@ -8,7 +8,7 @@ if (alto >= 1366 && ancho >= 1024){
 } else { if (alto >= 320 && ancho >= 1170){
         let imagen = elemento.setAttribute("src", "cabecera.jpg");
     }    else{
-            if (alto >= 320 && ancho <= 779){
+            if (alto >= 320 && ancho <= 820){
                     let imagen = elemento.setAttribute("src", "cabeceraPhone.jpg");
                 }
             }
