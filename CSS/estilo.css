@@ -79,6 +79,9 @@
     align-items: flex-start;
 }
 /*MAIN MENU*/
+.menu{
+    height: auto;
+}
 .menu-main{
     height: 45px;
     width: 50%;
