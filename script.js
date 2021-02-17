@@ -2,7 +2,7 @@ let imagenCabecera = "cabecera.jpg";
 let imagenPhone = "cabeceraPhone";
 
 console.log(imagenCabecera);
-console.log(imagenPhone);
+alert(imagenPhone);
 
 let viewportWidth = window.screen.height;
 let viewportHeight = window.screen.width;
