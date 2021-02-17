@@ -425,10 +425,7 @@ footer p{
     align-items: center;
     position: relative;
 }
-.imagen__Principal img{
 
-    background: url(/cabeceraPhone2.jpg);
-}
 
 .imagen__Principal h1{
     margin: 0px;
