@@ -6,6 +6,7 @@ let viewportHeight = window.screen.width;
 console.log(viewportWidth);
 console.log(viewportHeight); 
 let hola = "Hola";
+
 console.log("ancho:" + ancho);
 
     if (ancho == 864 && alto == 1536){
