@@ -18,6 +18,6 @@ if (ancho >= 768 && alto >= 1024){
         console.log(imagen + '/br' + "cabecLoca")
     }  
     }   else{
-            let imagen = elemento.setAttribute("src", imagenCabecera);
+            let imagen = elemento.setAttribute("src", imagenPhone);
             console.log(imagen + '/br' + "cabeceraPhone")
     }
