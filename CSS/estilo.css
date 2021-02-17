@@ -446,7 +446,7 @@ footer p{
     width: auto;
     color: #2b2b2b;
     text-align: center;
-    background: -prefix-linear-gradient(top, #c85c22 40%, #dea153 20%, #d88d35  40%);
+    background: -prefix-linear-gradient(top, #c85c22, #dea153, #d88d35);
 }
 
 .dashboard__Principal h2{
