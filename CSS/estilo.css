@@ -380,6 +380,14 @@ footer p{
 }
 
 @media (max-width: 768px) and (min-width: 300px){
+    @font-face {
+        font-family: "LatoLatinWeb";
+        src: url(“font/fonts/LatoLatin-Hairline.eot”);
+        src: url(“font/fonts/LatoLatin-Hairline.eot”) format(“embedded-opentype”),
+        url(“font/fonts/LatoLatin-Hairline.woff”) format(“woff”),
+        url(“font/fonts/LatoLatin-Hairline.woff2”) format(“woff2”),
+        url(“font/fonts/LatoLatin-Hairline.ttf”) format(“truetype”);
+    }
 /*MAIN MENU*/
 .menu-main{
     height: auto;
