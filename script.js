@@ -10,6 +10,6 @@ let hola = "Hola";
 if (ancho >= 768 && alto >= 1024){
     if (ancho == 864 && alto == 1536){
         let imagen = document.getElementById(".imagen__Principal");
-        console.log(imagen + '/br' + "Aquí")
+        console.log(imagen + '/br' + "ya")
     }
 }
