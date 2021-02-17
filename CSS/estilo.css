@@ -154,14 +154,14 @@
 .dashboard__Principal{
     margin: 0px;
     padding: 0px;
-    color: rgb(8, 8, 8);
+    color: rgb(59, 55, 55);
     width: 100%;
     display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: linear-gradient(0deg, #fff, #e0d7d2 15%, #d88d35, #ff6919 95%);
+    background: linear-gradient(0deg, #fff, #ebd2b7 , #d88d35, #ff6919);
 }
 
 .dashboard__Principal h2{
