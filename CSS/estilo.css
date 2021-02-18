@@ -151,6 +151,40 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.banner1, .banner2{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    display: grid;
+    grid-area: auto;
+}
+.banner3{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    display: grid;
+    grid-area: auto;
+}
+
+.banner1, .banner3{
+    background: #9e9fa1;
+}
+
+.banner2{
+    background: #fff;
+}
+
+.banner1 img, .banner2 img, .banner3 img{
+    max-height: fit-content;
+    max-width: fit-content;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
 /* DASHBOARD PRINCIPAL */
 .dashboard__Principal{
     margin: 0px;
@@ -301,17 +335,16 @@ ul, li{
 }
 /*  secction final */
 
-.menufooter_redes{
+.menuFin{
     width: 100%;
     height: 100%;
     padding: 0px;
-    padding-top: 30px;
+    padding-top: 50px;
     margin: 0px;
-    align-items: flex-start;
     z-index: 30;
     display: inline-flex;
 }
-.menu_Footer ul{
+.finalPagina ul{
     width: 95%;
     height: 100%;
     margin: 0px;
@@ -332,11 +365,11 @@ ul, li{
     justify-content: center;
 }
 
-.menu_Footer ul, .redes ul{
+.finalPagina ul, .redes ul{
     list-style: none;
 }
 
-.menu_Footer ul li{
+.finalPagina ul{
     display: inline-flex;
     justify-content: left;
     align-items: flex-start;
@@ -347,6 +380,7 @@ ul, li{
     line-height: 35px;
     color:rgb(37, 36, 36);
     z-index: 50;
+    background-color: yellowgreen;
 }
 
 .redes ul li{
@@ -443,6 +477,31 @@ footer p{
     font-family: 'Helvetica Neue', sans-serif;
 }
 
+.banner1, .banner2{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    display: flex;
+}
+
+.recuadro {
+    background: rgb(255, 255, 255);
+    align-items: stretch;
+    position: absolute;
+    right: 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius:10px 5px 50px;
+    font-family: monospace;
+    font-size: 8px;
+}
+
+.recuadro p {
+    color:rgb(75, 26, 6);
+    content: 'estpoy por css';
+    visibility: visible;
+}
 .dashboard__Principal h2{
     font-size: 18px;
 }
@@ -494,6 +553,7 @@ footer p{
     width: auto;
     display: inline-flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     align-items: center;
     margin: 0px;
@@ -510,9 +570,38 @@ footer p{
     display: block;
 }
 
+.menuFin{
+    border: none;
+    margin: 0px;
+    height: 20px;
+    padding: 0px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.menuFin ul{
+    width: 100%;
+    height: 150%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to right, #ee950ffc 0%, #ee950ffc 35%, #f7752f 50%, #f7752f 84%, #ff6919 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0037', endColorstr='#000026', GradientType=1 );
+
+}
+
+.menuFin li{
+    margin-left: 8px;
+    margin-right: 8px;
+    align-self: center;
+}
+
 .redes{
     height: 100%;
-    width: 100px;
+    width: auto;
     display: block;
 }
 .redes ul{
@@ -521,13 +610,12 @@ footer p{
     margin: 0px;
     padding: 0px;
     display: inline-flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-top: 5px;  
+    flex-direction: row;
+    align-content: flex-start;
 }
 
 .redes ul li{
-    margin-top: 10px;  
+    margin-right: 20px;
 }
 
 .paymethod ul{
@@ -573,13 +661,16 @@ footer p{
     font-size: 12px;
     padding: 0px;
 }
-.menu_Footer ul li{
-    width: 95%;
+.finalPagina ul{
+    width: 50%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     line-height: 25px;
+    background-color: yellow;
 }
 
 }
