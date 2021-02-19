@@ -569,10 +569,9 @@ footer p{
     align-items: stretch;
     position: absolute;
     right: 0px;
-    margin-top: 2.5em;
+    margin-top: 3em;
     margin-right: 10px;
     border-radius:10px 5px 50px; 
-    max-width: 18em;
     max-height: fit-content;
     max-block-size: 12em;
     border:2px solid #9c99994f;
@@ -590,13 +589,22 @@ footer p{
     font-style: italic;
     text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
     line-height: 1em;
+    text-align: justify;
+}
+
+#img1 {
+    max-width: 24em;
 }
 
 #img2 {
-
+    max-width: 26em;
     left: 0px;
     margin-left: 10px !important;
-    margin-top: 4em;
+    margin-top: 3em;
+}
+
+#img3 {
+    max-width: 28em;
 }
 
 .dashboard__Principal h2{
