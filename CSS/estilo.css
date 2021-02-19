@@ -151,39 +151,89 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.banner1, .banner2{
-    margin: 0px;
-    width: 100%;
-    height: auto;
-    padding: 0px;
-    display: grid;
-    grid-area: auto;
-}
-.banner3{
-    margin: 0px;
-    width: 100%;
-    height: auto;
-    padding: 0px;
-    display: grid;
-    grid-area: auto;
+.container_img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
-.banner1, .banner3{
-    background: #9e9fa1;
+.banner1{
+    width: 100%;
+    height: 70em;
+    padding: 0em;
+    border: 0em;
+    background-image: url(escritorio.png);
+    background-size: 100%;
+    background-attachment: inherit;
+    background-position: unset;
+    background-repeat: no-repeat;
 }
 
 .banner2{
-    background: #fff;
+    width: 100%;
+    height: 80em;
+    padding: 0em;
+    border: 0em;
+    align-items: flex-end;
+    max-height: fit-content;
+    overflow: hidden;
+    background-image: url(escritorio2.png);
+    background-size: 100%;
+    background-position: right;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
 }
 
-.banner1 img, .banner2 img, .banner3 img{
-    max-height: fit-content;
-    max-width: fit-content;
-    align-content: center;
-    align-items: center;
+.banner3{
     width: 100%;
+    height: 80em;
+    padding: 0em;
+    border: 0em;
+    align-items: flex-end;
+    max-height: fit-content;
+    overflow: hidden;
+    background-image: url(escritorio3.png);
+    background-position: center;
+    background-size: 100%;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+}
+
+.recuadro {
+    background: rgba(255, 255, 255, 0.719);
+    align-items: stretch;
+    position: absolute;
+    right: 5em;
+    margin-top: 9em;
+    margin-right: 10px;
+    border-radius:10px 5px 50px; 
+    max-width: 60em;
+    max-height: fit-content;
+    border:2px solid #9c99994f;
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
     overflow: hidden;
 }
+
+.recuadro p {
+    color:#525150;
+    margin: 1em;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    font-style: italic;
+    text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
+    line-height: 2.5em;
+}
+
+#img2 {
+
+    left: 5em;
+    margin-left: 10px !important;
+    margin-top: 9em;
+}
+
 
 /* DASHBOARD PRINCIPAL */
 .dashboard__Principal{
@@ -477,31 +527,78 @@ footer p{
     font-family: 'Helvetica Neue', sans-serif;
 }
 
-.banner1, .banner2{
-    margin: 0px;
+.banner1{
     width: 100%;
-    height: auto;
-    padding: 0px;
-    display: flex;
+    height: 18em;
+    padding: 0em;
+    border: 0em;
+    background-image: url(escritorio.png);
+    background-size: cover;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+}
+
+.banner2{
+    width: 100%;
+    left: 10em;
+    height: 20em;
+    padding: 0em;
+    border: 0em;
+    overflow: hidden;
+    background-image: url(escritorio2.png);
+    background-position: right;
+    background-size: cover;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+}
+
+.banner3{
+    width: 100%;
+    height: 20em;
+    padding: 0em;
+    border: 0em;
+    background-image: url(escritorio3.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
 }
 
 .recuadro {
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.719);
     align-items: stretch;
     position: absolute;
     right: 0px;
-    margin-top: 20px;
+    margin-top: 2.5em;
     margin-right: 10px;
-    border-radius:10px 5px 50px;
-    font-family: monospace;
-    font-size: 8px;
+    border-radius:10px 5px 50px; 
+    max-width: 15em;
+    max-height: fit-content;
+    max-block-size: 12em;
+    border:2px solid #9c99994f;
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+    text-overflow: ellipsis;
+    overflow: scroll;
 }
 
 .recuadro p {
-    color:rgb(75, 26, 6);
-    content: 'estpoy por css';
-    visibility: visible;
+    color:#525150;
+    margin: 1em;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    font-style: italic;
+    text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
+    line-height: 1em;
 }
+
+#img2 {
+
+    left: 0px;
+    margin-left: 10px !important;
+    margin-top: 4em;
+}
+
 .dashboard__Principal h2{
     font-size: 18px;
 }
