@@ -112,8 +112,8 @@
     color: rgb(84, 84, 84);
     font-weight: bold;
     line-height: 2.5vw;
-    min-width: 10vmax;
-    max-width: 15vmax;
+    min-width: 10vw;
+    max-width: 15vw;
 }
 
 .menu-main i{
@@ -143,7 +143,7 @@
 .imagen__Principal{
     margin: 0px;
     width: 100%;
-    height: 23,7vw;
+    height: 23.7vw;
     padding: 0px;
     display: flex;
     justify-content: center;
