@@ -718,7 +718,7 @@ ul, li{
 
 .menuFin {
     width: 100%;
-    height: 2vw;
+    height: 3.5vw;
     margin: 0px;
     padding: 0px;
     background-color: #f7a02f;
@@ -752,7 +752,7 @@ ul, li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight : bold;
     font-style: italic;
-    font-size: 1.2vw;
+    font-size: 2.9vw;
     text-justify: center;
 }
 
