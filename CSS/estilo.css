@@ -643,7 +643,7 @@ ul, li{
 }
 
 .pagos ul, .redesSociales ul{
-    width: 70%;
+    width: 100%;
     height: 100%;
     max-height: 10vw;
     margin: 0vw;
@@ -651,33 +651,46 @@ ul, li{
     display: flex;
     text-align: center;
     justify-content: center;
+    background-color: chocolate;
+}
+
+.pagos li{
+    max-width: 5%;
+    justify-content: space-around;
+    background-color: burlywood;
 }
 
 .pagos img{
     margin: 0px;
     padding: 0px;
-    height: auto;
+    width: auto;
+    max-height: 3.5vw;
+    min-width: 2vw;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
+    justify-items: center;
     font-size: 5vw;
+    background-color: blue;
+    left: 5vw;
 }
 
-.pagos .paypal{
+.paypal{
     margin: 0px;
     padding: 0px;
     width: 80%;
     align-self: center;
 }
 
-.pagos .bitcoin{
+.bitcoin{
     margin: 0px;
     padding: 0px;
     width: 95%;
     align-self: center;
-    margin-bottom: 0.05;
+    margin-bottom: 0.05vw;
+    right: 0.3vw;
 }
 
-.pagos .uphold{
+.uphold{
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -692,7 +705,6 @@ ul, li{
     max-width: 33%;
     height: fit-content;
     flex-flow: column wrap;
-    justify-content: center;
     align-items: center;
     align-self: center;
     margin-left: 0.3em;
