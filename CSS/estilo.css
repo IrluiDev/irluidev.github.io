@@ -1015,13 +1015,13 @@ footer p{
 
 .contenedor_lista{
     width: 100%;
-    height: 88%;
+    height: 80%;
     display: flex;
     justify-content: flex-end;
     align-content: space-around;
     align-items: center;
-    margin: 0;
-    padding: 0;
+    margin: 0vw;
+    padding: 2vw 0vw;
 }
 
 .recuadro{
@@ -1064,7 +1064,7 @@ footer p{
     margin: 0vw;
     padding: 0.6vw 0vw 0vw;
     width: 100%;
-    height: 18vw;
+    height: 17vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -1171,11 +1171,11 @@ input[type="submit"]:hover{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    min-height: 30vw;
-    max-height: 150vw;
+    height: fit-content;
     color: rgb(59, 55, 55);
     width: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     background: linear-gradient(3deg, #fff, #ebd2b7, #f7a63dd7,  #d88d35, #ff6919);  
@@ -1183,16 +1183,17 @@ input[type="submit"]:hover{
 
 .tituloModelos{
     margin: 0px;
-    padding: 0px;
+    padding: 0vw;
     width: 100%;
+    height: 38%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .tituloModelos h2{
     margin: 0px;
     padding: 0px;
-    margin-top: 1vw;
     align-content: center;
     display: flex;
     justify-content: center;
@@ -1200,17 +1201,16 @@ input[type="submit"]:hover{
     color: floralwhite;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
-    font-size: 2.9vw;
+    font-size: 3.9vw;
     overflow: hidden;
 }
 .listaModelos{
     margin: 0px;
-    width: 90%;
-    height: fit-content;
-    padding: 0px;
+    width: 100%;
+    height: 62%;
+    padding: 1vw;
     display: flex;
-    flex-flow: wrap;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -1220,11 +1220,12 @@ input[type="submit"]:hover{
     align-items: center;
     margin: 0.2vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2vw;
+    font-size: 3.5vw;
     color: rgb(43, 43, 43);
     align-content: space-around;
     padding: 0px;
-    min-width: 15vw;
+    width: 40%;
+    height: 100%;
     border-color: rgb(2, 2, 2);
     border-radius:10px 5px 50px; 
     box-shadow: 2px 2px 8px rgb(240, 144, 0);
@@ -1232,7 +1233,7 @@ input[type="submit"]:hover{
 }
 
 .listaModelos li i{
-    font-size: 2.3vw;
+    font-size: 3.5vw;
     color: #ffffff;
     display: inline-block;
     align-items: center;
@@ -1255,7 +1256,12 @@ input[type="submit"]:hover{
     display: inline-flex;
     text-align: center;
     justify-content: center;
-    font-size: 1.7vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    font-weight : bold;
+    font-style: italic;
     color: #3d3b3b;
     text-shadow: 2px 2px 6px rgba(223, 223, 223, 0.808); 
 }
@@ -1266,34 +1272,28 @@ ul, li{
 }
 
 .listadoFinal{
-    height: 10vw;
+    height: 8vw;
     width: 100%;
     margin: 0px;
     padding: 0px;
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
+    flex-grow: row wrap;
     justify-content: center;
 }
 
 .listadoFinal ul{
-    width: 98%;
-    height: auto;
-    max-height: fit-content;
-    min-height: fit-content;
+    width: 95%;
+    height: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 0vw;
     display: flex;
-    flex-flow: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-flow: column wrap;
+    justify-content: flex-start;
 }
 
 .listadoFinal li{
-    min-height: 1vw;
-    max-height: 4vw;
-    min-width: 10vw;
+    height: 3vw;
+    width: 35%;
     margin-bottom: 0.3vw;
     margin: 0px;
     margin-right: 1vw;
@@ -1302,8 +1302,8 @@ ul, li{
     font-weight : bold;
     font-style: italic;
     font-size: 1.8vw;
-    flex-flow: column wrap;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .listadoFinal p{
@@ -1316,41 +1316,31 @@ ul, li{
 .piePagina{
     width: 100%;
     background: black;
-    height: 6.5vw;
-    display: flex;
-    flex-flow: wrap;
-    flex-direction: row;
+    height: 12vw;
+    display: inline-flex;
+    flex-flow: column nowrap;
     justify-content: center;
-    align-content: flex-end;
-    margin: 0vmax;
+    margin: 0vw;
     padding: 0px;
 }
 
 .pagos, .redesSociales{
     margin: 0px;
     padding: 0px;
-    width: 50%;
-    height: 6vw;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .pagos ul, .redesSociales ul{
     width: 100%;
     height: 100%;
-    max-height: 10vw;
     margin: 0vw;
     padding: 0px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
 }
 
 .pagos li{
     max-width: 5%;
     min-width: 3%;
-    justify-content: space-around;
 }
 
 .pagos img{
@@ -1362,7 +1352,6 @@ ul, li{
     flex-flow: column wrap;
     justify-content: space-around;
     font-size: 5vw;
-    left: 5vw;
 }
 
 .paypal{
