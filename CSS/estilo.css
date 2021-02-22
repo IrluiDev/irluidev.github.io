@@ -381,12 +381,7 @@ section{
 }
 
 .productos{
-    margin: 1.3vw;
-    font-size: 1.9vw;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight : bold;
-    text-shadow: rgba(143, 142, 142, 0.596) 1px 1px 2px;
-    line-height: 2.3vw;
+    margin: 1vw;
     text-align: justify;
     padding: 0px;
 }
@@ -415,11 +410,10 @@ section{
 }
 
 .productos li {
-    height: fit-content;
+    height: 10vw;
     width: 5vw;
     padding: 0px;
     margin: 0.2vw;
-    background-color: aqua;
     overflow: hidden;
 }
 
@@ -548,7 +542,6 @@ input[type="submit"]:hover{
     height: max-content;
     margin: 0px;
     padding: 0px;
-    background-color: rgba(0, 191, 255, 0.452);
     text-shadow: 2px 2px 8px #f7a02f;   
 }
 
@@ -1023,7 +1016,6 @@ footer p{
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
     overflow: hidden;
     border: 1vw solid #9c99994f;
-    background-color: #f7752f;
     overflow: hidden;
 }
 
@@ -1221,12 +1213,10 @@ input[type="submit"]:hover{
     border-color: rgb(2, 2, 2);
     border-radius:10px 5px 50px; 
     box-shadow: 2px 2px 8px rgb(240, 144, 0);
-
-    background-color: cornflowerblue;
 }
 
 .listaModelos li i{
-    font-size: 3.5vw;
+    font-size: 3.3vw;
     color: #ffffff;
     display: inline-block;
     align-items: center;
@@ -1234,7 +1224,6 @@ input[type="submit"]:hover{
     height: max-content;
     margin: 0px;
     padding: 0px;
-    background-color: rgba(0, 191, 255, 0.452);
     text-shadow: 2px 2px 8px #f7a02f;   
 }
 
@@ -1272,7 +1261,6 @@ ul, li{
     padding: 0px;
     display: flex;
     flex-direction: row;
-    background-color: cadetblue;
     overflow: hidden;
 }
 
@@ -1284,7 +1272,6 @@ ul, li{
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    background-color: aqua;
 }
 
 .listadoFinal li{
@@ -1299,7 +1286,6 @@ ul, li{
     font-size: 1.8vw;
     align-items: center;
     text-align: center;
-    background-color: brown;
 }
 
 .listadoFinal p{
