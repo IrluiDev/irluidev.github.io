@@ -1225,6 +1225,7 @@ input[type="submit"]:hover{
     height: max-content;
     margin: 0px;
     padding: 0px;
+    background-color: #f7a02f;
     text-shadow: 2px 2px 8px #f7a02f;   
 }
 
