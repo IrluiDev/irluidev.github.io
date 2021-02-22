@@ -183,7 +183,8 @@
 
 .banner1{
     width: 100%;
-    height: 50vw;
+    max-height: 60vw;
+    min-height: 55vw;
     padding: 0em;
     border: 0em;
     background-image: url(escritorio.png);
@@ -621,13 +622,13 @@ ul, li{
 
 .piePagina{
     width: 100%;
-    background-color: rgba(212, 211, 212, 0.795);
-    height: 10vw;
+    background: black;
+    height: 6.5vw;
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-content: flex-end;
     margin: 0vmax;
     padding: 0px;
 }
@@ -655,6 +656,7 @@ ul, li{
 
 .pagos li{
     max-width: 5%;
+    min-width: 3%;
     justify-content: space-around;
 }
 
@@ -666,7 +668,6 @@ ul, li{
     min-width: 2vw;
     flex-flow: column wrap;
     justify-content: space-around;
-    justify-items: center;
     font-size: 5vw;
     left: 5vw;
 }
@@ -693,6 +694,7 @@ ul, li{
     width: 100%;
     margin-top: 0.05vw;
     align-self: center;
+
 }
 
 .pagos li, .redesSociales li{
@@ -709,8 +711,7 @@ ul, li{
 }
 
 .fab{
-    font-size: 6vw;
-
+    font-size: 5vw;
 }
 
 .menuFin {
@@ -748,7 +749,6 @@ ul, li{
     justify-content: space-around;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight : bold;
-    font-style: italic;
     font-size: 2.9vw;
     text-justify: center;
 }
