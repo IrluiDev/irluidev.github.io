@@ -1303,7 +1303,6 @@ ul, li{
 
 .piePagina{
     width: 100%;
-    background: black;
     height: 12vw;
     display: inline-flex;
     flex-flow: column nowrap;
@@ -1319,11 +1318,20 @@ ul, li{
     height: 100%;
 }
 
-.pagos ul, .redesSociales ul{
+.redesSociales ul{
     width: 100%;
     height: 100%;
     margin: 0vw;
     padding: 0px;
+    background-color: black;
+}
+
+.pagos ul{
+    width: 100%;
+    height: 100%;
+    margin: 0vw;
+    padding: 0px;
+    background-color: #ffffff;
 }
 
 .pagos li{
