@@ -481,6 +481,7 @@ input[type="submit"]:hover{
     flex-wrap: wrap;
     justify-content: center;
     background: linear-gradient(3deg, #fff, #ebd2b7, #f7a63dd7,  #d88d35, #ff6919);  
+
 }
 
 .tituloModelos{
@@ -489,6 +490,7 @@ input[type="submit"]:hover{
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
 .tituloModelos h2{
@@ -504,6 +506,7 @@ input[type="submit"]:hover{
     font-style: normal;
     font-size: 2.9vw;
     overflow: hidden;
+    
 }
 .listaModelos{
     margin: 0px;
@@ -535,14 +538,15 @@ input[type="submit"]:hover{
 
 .listaModelos li i{
     font-size: 2.3vw;
-    color: #ffffff;
+    color: #da9031;
     display: inline-block;
     align-items: center;
     width: 100%;
     height: max-content;
     margin: 0px;
     padding: 0px;
-    text-shadow: 2px 2px 8px #f7a02f;   
+    text-shadow: 2px 2px 8px #36240c;   
+    background-color: rgba(124, 46, 10, 0.089);
 }
 
 .listaModelos .fas{
@@ -1218,15 +1222,15 @@ input[type="submit"]:hover{
 
 .listaModelos li i{
     font-size: 3.3vw;
-    color: #ffffff;
+    color: #da9031;
     display: inline-block;
     align-items: center;
     width: 100%;
     height: max-content;
     margin: 0px;
     padding: 0px;
-    background-color: #f7a02f;
-    text-shadow: 2px 2px 8px #f7a02f;   
+    text-shadow: 2px 2px 8px #36240c;   
+    background-color: rgba(124, 46, 10, 0.089);
 }
 
 .listaModelos .fas{
