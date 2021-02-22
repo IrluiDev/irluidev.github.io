@@ -256,7 +256,7 @@ section{
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
 }
 
-.recuadro_textos p{
+.recuadro_textos p, .recuadro_textos li{
     color:#525150;
     margin: 1vw;
     font-size: 1.8vw;
@@ -267,6 +267,11 @@ section{
     line-height: 3.2vw;
     text-align: justify;
 }
+
+ .recuadro_textos ul, .recuadro_textos li{
+    margin: 0em;
+    padding: 0em 1vw;
+ }
 
 .titulo{
     width: 30vw;
@@ -934,11 +939,11 @@ footer p{
 
 
 .recuadro_textos{
-    background: rgba(255, 255, 255, 0.719);
+    background: rgba(255, 255, 255, 0.822);
     align-items: stretch;
     position: absolute;
     right: 5vw;
-    margin-top: 5vw;
+    margin-top: 10vw;
     margin-right: 0.7vw;
     border-radius:10px 5px 50px; 
     max-height: fit-content;
@@ -956,12 +961,20 @@ footer p{
     text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
     line-height: 5vw;
     text-align: justify;
+    padding: 0em 2vw;
 }
+ .recuadro_textos ul, .recuadro_textos li{
+    margin: 0em;
+    padding: 0em 2vw;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    list-style: inside;
+    line-height: 5vw;
+    text-align: justify;
+    color: rgb(58, 58, 58);
+ }
 
-.textoLargo {
-    width: auto;
-    border-width: 10vw;
-}
 .titulo{
     width: 80%;
     max-height: 7vw;
