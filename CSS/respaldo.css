@@ -1,0 +1,277 @@
+
+.container_img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 270vw;
+}
+
+.banner1{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+    background-image: url(escritorio.png);
+    background-size: 169%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: max-content;
+}
+
+.banner2{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+    overflow: hidden;
+    background-image: url(escritorio2.png);
+    background-size: 132%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: max-content;
+}
+
+.banner3{
+    width: 100%;
+    height: 36%;
+    padding: 0em;
+    border: 0em;
+    display: block;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(escritorio3.png);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    max-height: max-content;
+}
+
+.recuadro_textos{
+    background: rgba(255, 255, 255, 0.822);
+    align-items: stretch;
+    position: absolute;
+    right: 5vw;
+    margin-top: 10vw;
+    margin-right: 0.7vw;
+    border-radius:10px 5px 50px; 
+    max-height: fit-content;
+    min-width: 62%;
+    border: 4vw solid #9c99994f;
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+}
+
+.recuadro_textos p{
+    color:#525150;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    font-style: italic;
+    text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
+    line-height: 5vw;
+    text-align: justify;
+    padding: 0em 2vw;
+}
+ .recuadro_textos ul, .recuadro_textos li{
+    margin: 0em;
+    padding: 0em 2vw;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    line-height: 5vw;
+    text-align: justify;
+    color: rgb(58, 58, 58);
+ }
+
+ .recuadro_textos h1{
+    margin: 0em;
+    padding: 2vw;
+    font-size: 3.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    line-height: 5vw;
+    text-align: center;
+    color: #f7752f;
+ }
+
+.titulo, .titulo_listas{
+    width: 80%;
+    max-height: 7vw;
+    min-height: 6vw;
+    background-color: #f7752f;
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.titulo p{
+    font-size: 4.5vw; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    line-height: 2vw;
+    font-weight : bold;
+    font-style: italic;
+    text-decoration-color: rgb(255, 255, 254);
+    text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.contenedor_lista .recuadro{
+    background: rgba(255, 255, 255, 0.726);
+    max-width: 72%;
+    max-height: 32%;
+    min-height: fit-content;
+    padding: -0.3vw;
+    margin: 0vw;
+    display: inline-block;
+    border-radius: 10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+    overflow: hidden;
+    border: 0.6vw solid #9c99994f;
+    overflow: hidden;
+    background: rgb(121, 6, 102);
+}
+
+.recuadro .titulo_listas {
+    background: rgba(255, 255, 255, 0.726);
+    max-width: 75%;
+    max-height: 30%;
+    min-height: 25%;
+    padding: -0.3vw;
+    margin: 0vw;
+    left: 20vw;
+    border-radius: 10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+    overflow: hidden;
+    border: 1vw solid #9c99994f;
+    overflow: hidden;
+}
+
+.recuadro .titulo_listas p{
+    font-size: 5.5vw; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    line-height: 2vw;
+    font-weight : bold;
+    font-style: italic;
+    text-decoration-color: rgb(255, 255, 254);
+    text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
+    flex-flow: column wrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+#paginaWeb1 :hover, #paginaWeb2 :hover, #paginaWeb3 :hover{
+    border-color: rgb(2, 2, 2);
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
+    color: rgb(51, 51, 51);
+}
+
+
+.productos li{
+    padding: 0vw;
+    margin: 0vw;
+    width: 48%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.productos li p{
+    font-size: 3.5vw;
+    color: #292828;
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0vw;
+    padding: 0px;
+    text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
+    overflow: hidden;
+}
+
+
+.productos li i{
+    font-size: 3vw;
+    color: #292828;
+    display: inline-block;
+    align-items: center;
+    width: 3vw;
+    height: max-content;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 1.9vw;
+    text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.icono :hover{
+    color: #f7a02f;
+}
+
+.productos li {
+    height: fit-content;
+    padding: 0px;
+    margin: 0.2vw;
+}
+
+.productos li:hover{
+    border-color: rgb(2, 2, 2);
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0em;
+    margin-top: 0.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+input[type="submit"]{
+    width: 30%;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.9vw; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff;
+    font-weight : bold;
+    text-shadow: rgba(211, 211, 211, 0.315) 1px 1px 2px;
+    box-shadow: 2px 2px 8px rgba(73, 73, 73, 0.801);
+    margin: 0;
+    padding: 0;
+    background: #F7752F;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    border-radius:10px 50px 10px 50px; 
+    border: none;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #F7752F, #f7a02f, white, #f7a02f, #F7752F);
+    color: rgb(51, 51, 51);
+}
