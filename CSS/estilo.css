@@ -969,13 +969,23 @@ footer p{
     font-size: 3vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight : bold;
-    list-style: inside;
     line-height: 5vw;
     text-align: justify;
     color: rgb(58, 58, 58);
  }
 
-.titulo{
+ .recuadro_textos h1{
+    margin: 0em;
+    padding: 0em 2vw;
+    font-size: 5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    line-height: 5vw;
+    text-align: justify;
+    color: #f7752f;
+ }
+
+.titulo, .titulo_listas{
     width: 80%;
     max-height: 7vw;
     min-height: 6vw;
@@ -1004,59 +1014,43 @@ footer p{
 }
 
 .contenedor_lista{
-    max-width: 100%;
-    height: 80%;
+    width: 100%;
+    height: 88%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-around;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
 
 .recuadro{
-    background: rgba(255, 255, 255, 0.356);
-    display: inline-block;
-    max-width: 65%;
+    background: rgba(255, 255, 255, 0.822);
+    max-width: 52%;
     min-width: 50%;
     max-height: 25%;
     min-height: fit-content;
     padding: 0em;
-    margin-top: 5vw;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius:10px 5px 50px; 
-    border:2px solid #9c99994f;
+    margin: 0vw;
+    border-radius: 10px 5px 50px; 
+    border: 2px solid #9c99994f;
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
     overflow: hidden;
-}
+    border: 2vw solid #9c99994f;
 
-.titulo_listas{
-    min-width: 100%;
-    min-height: 3vw;
-    max-height: 5vw;
-    background-color: #f7752f;
-    border-radius:10px 5px 50px; 
-    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
-    margin-left: 0.5vw;
-    margin: 0em;
-    display: inline-block;
-    justify-content: right;
-    padding: 0px;
 }
 
 .titulo_listas p{
-    align-items: center;
-    margin: 0px;
-    margin-top: 0.3vw;
-    padding: 0px;
-    font-size: 5vw; 
+    font-size: 4.5vw; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
+    line-height: 2vw;
     font-weight : bold;
     font-style: italic;
-    text-shadow: rgba(211, 211, 211, 0.315) 1px 1px 2px;
-    text-align: left;
-    overflow: hidden;
-    text-indent: 0.2vw;
+    text-decoration-color: rgb(255, 255, 254);
+    text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 
@@ -1069,23 +1063,43 @@ footer p{
 }
 
 .productos{
-    margin: 1.3vw;
+    margin: 0vw;
     font-size: 1.9vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight : bold;
     text-shadow: rgba(143, 142, 142, 0.596) 1px 1px 2px;
     line-height: 2.3vw;
     text-align: justify;
-    padding: 0px;
+    padding: 0.3vw 1.3vw;
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 12vw;
 }
 
+.productos li{
+    color:#525150;
+    font-size: 3.2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    font-style: italic;
+    text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
+    line-height: 2vw;
+    text-align: justify;
+    padding: 0em;
+    margin: 0em;
+    width: 48%;
+    height: 5vw;
+    display: inline-flex;
+    align-items: center;
+}
 
 .icono{
-    font-size: 1vw;
+    font-size: 2.6vw;
     color: #292828;
     display: inline-block;
     align-items: center;
-    width: 2vw;
+    width: 3vw;
     height: max-content;
     margin: 0px;
     padding: 0px;
@@ -1114,14 +1128,7 @@ footer p{
     box-shadow: 2px 2px 8px rgb(240, 144, 0);
     background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
 }
-.productos p{
-    margin: 0.8vw;
-    padding: 0px;
-    display: inline;
-    font-size: 1.9vw;
-    color: #3d3b3b;
-    text-shadow: 2px 2px 6px rgba(223, 223, 223, 0.808); 
-}
+
 .boton{
     display: flex;
     justify-content: center;
