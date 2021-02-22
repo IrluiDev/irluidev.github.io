@@ -261,17 +261,6 @@ section{
     text-align: justify;
 }
 
- .recuadro_textos h1{
-    margin: 0em;
-    padding: 2vw;
-    font-size: 3vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight : bold;
-    line-height: 5vw;
-    text-align: center;
-    color: #f7752f;
- }
-
  .recuadro_textos ul, .recuadro_textos li{
     margin: 0em;
     padding: 0em 1vw;
@@ -291,6 +280,7 @@ section{
 }
 
 .titulo p{
+    left: 0.5vw;
     font-size: 3vw; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
@@ -298,8 +288,6 @@ section{
     font-style: italic;
     text-decoration-color: rgb(255, 255, 254);
     text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
-    flex-flow: column wrap;
-    align-items: center;
 }
 
 #img1 {
@@ -313,7 +301,7 @@ section{
 
 .contenedor_lista{
     max-width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     align-self: center;
@@ -325,8 +313,7 @@ section{
 .recuadro{
     background: rgba(255, 255, 255, 0.356);
     display: inline-block;
-    width: 25%;
-    height: 30%;
+    max-width: 40vw;
     padding: 0em;
     margin-top: 5vw;
     margin-left: auto;
@@ -379,6 +366,11 @@ section{
     text-indent: 0.2vw;
 }
 
+#paginaWeb1, #paginaWeb2, #paginaWeb3 {
+    height: 5vw;
+    padding: 0px;
+    margin: 0.2vw;
+}
 
 #paginaWeb1 :hover, #paginaWeb2 :hover, #paginaWeb3 :hover{
     border-color: rgb(2, 2, 2);
@@ -389,63 +381,19 @@ section{
 }
 
 .productos{
-    margin: 0vw;
-    padding: 1vw 0vw 0vw;
-    width: 100%;
-    height: 40vw;
-    display: inline-flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
-    overflow: hidden;
-}
-
-.productos li{
-    padding: 1vw;
-    margin: 0vw;
-    width: 90%;
-    height: 10%;
-    left: 7vw;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    overflow: hidden;
-}
-
-.productos li p{
-    font-size: 2.3vw;
-    color: #292828;
-    display: inline-block;
-    width: 100%;
-    height: 50%;
-    font-weight : bold;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0vw;
+    margin: 1vw;
+    text-align: justify;
     padding: 0px;
-    text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
-    overflow: hidden;
 }
 
-.productos li:hover{
-    border-color: rgb(2, 2, 2);
-    border-radius:10px 5px 50px; 
-    box-shadow: 2px 2px 8px rgb(240, 144, 0);
-    background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
-}
-
-
-
-.icono :hover{
-    color: #f7a02f;
-}
 
 .icono{
-    font-size: 2vw;
+    font-size: 1vw;
     color: #292828;
     display: inline-block;
     align-items: center;
-    width: 3    vw;
+    width: 2vw;
+    height: max-content;
     margin: 0px;
     padding: 0px;
     text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
@@ -457,6 +405,32 @@ section{
     justify-content: center;
 }
 
+.icono :hover{
+    color: #f7a02f;
+}
+
+.productos li {
+    height: 10vw;
+    width: 5vw;
+    padding: 0px;
+    margin: 0.2vw;
+    overflow: hidden;
+}
+
+.productos li:hover{
+    border-color: rgb(2, 2, 2);
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
+}
+.productos p{
+    margin: 0.8vw;
+    padding: 0px;
+    display: inline;
+    font-size: 1.9vw;
+    color: #3d3b3b;
+    text-shadow: 2px 2px 6px rgba(223, 223, 223, 0.808); 
+}
 .boton{
     display: flex;
     justify-content: center;
@@ -470,8 +444,8 @@ section{
 }
 
 input[type="submit"]{
-    width: 40%;
-    height: 4vw;
+    width: 20%;
+    height: 2.8vw;
     display: flex;
     justify-content: center;
     font-size: 1.9vw; 
@@ -1109,6 +1083,7 @@ footer p{
     overflow: hidden;
 }
 
+
 .icono{
     font-size: 3vw;
     color: #292828;
@@ -1328,6 +1303,7 @@ ul, li{
 
 .piePagina{
     width: 100%;
+
     height: 12vw;
     display: inline-flex;
     flex-flow: column nowrap;
@@ -1342,21 +1318,15 @@ ul, li{
     width: 100%;
     height: 100%;
 }
-
-.redesSociales ul{
-    width: 100%;
-    height: 100%;
-    margin: 0vw;
-    padding: 0px;
-    background-color: black;
+.pagos ul{
+    background: #ffffff;
 }
 
-.pagos ul{
+.pagos ul, .redesSociales ul{
     width: 100%;
     height: 100%;
     margin: 0vw;
     padding: 0px;
-    background-color: #ffffff;
 }
 
 .pagos li{
