@@ -888,71 +888,50 @@ footer p{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: 180vw;
-    background-color: cornflowerblue;
+    height: 270vw;
 }
 
 .banner1{
     width: 100%;
-    height: 33%;
+    height: 32%;
     padding: 0em;
     border: 0em;
     background-image: url(escritorio.png);
-    background-size: 135%;
-    background-attachment: inherit;
-    background-position: unset;
+    background-size: 169%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(255, 0, 0);
     max-height: max-content;
 }
 
 .banner2{
     width: 100%;
-    height: 33%;
+    height: 32%;
     padding: 0em;
     border: 0em;
-    align-items: flex-end;
-    max-height: max-content;
     overflow: hidden;
     background-image: url(escritorio2.png);
-    background-size: 100%;
-    background-position: right;
-    background-attachment: inherit;
+    background-size: 132%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: chartreuse;
+    max-height: max-content;
 }
 
 .banner3{
     width: 100%;
-    height: 34%;
+    height: 36%;
     padding: 0em;
     border: 0em;
-    max-height: max-content;
     display: block;
     align-content: center;
     align-items: center;
     overflow: hidden;
     background-image: url(escritorio3.png);
     background-position: center;
-    background-size: 100%;
-    background-attachment: inherit;
+    background-size: 150%;
     background-repeat: no-repeat;
+    max-height: max-content;
 }
 
-section{
-    color:#f7752f;
-    font-size: 1.5em;
-    margin-left: 0.8em;
-    margin-top: 0.4em;
-    margin-right: 0.8em;
-    margin-bottom: 0em;
-    padding: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight : bold;
-    font-style: italic;
-    text-shadow: rgba(211, 211, 211, 0.315) 1px 1px 2px;
-    white-space: nowrap;
-}
 
 .recuadro_textos{
     background: rgba(255, 255, 255, 0.719);
@@ -963,22 +942,26 @@ section{
     margin-right: 0.7vw;
     border-radius:10px 5px 50px; 
     max-height: fit-content;
-    min-width: 60%;
-    border:2px solid #9c99994f;
+    min-width: 62%;
+    border: 4vw solid #9c99994f;
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
 }
 
 .recuadro_textos p{
     color:#525150;
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight : bold;
     font-style: italic;
     text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
-    line-height: 3.2vw;
+    line-height: 5vw;
     text-align: justify;
 }
 
+.textoLargo {
+    width: auto;
+    border-width: 10vw;
+}
 .titulo{
     width: 80%;
     max-height: 7vw;
@@ -986,19 +969,16 @@ section{
     background-color: #f7752f;
     border-radius:10px 5px 50px; 
     box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
-    margin-left: 3vw;
-    margin-top: 0vw;
-    margin-right: 3vw;
-    margin-bottom: 3vw;
+    margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
     justify-content: center;
 }
 
 .titulo p{
-    left: 0.5vw;
-    font-size: 3vw; 
+    font-size: 4.5vw; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
     line-height: 2vw;
@@ -1007,17 +987,7 @@ section{
     text-decoration-color: rgb(255, 255, 254);
     text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
     flex-flow: column wrap;
-    justify-content: center;
     align-items: center;
-}
-
-#img1 {
-    max-width: 50%;
-}
-
-#img2 {
-    left: 6vw;
-    max-width: 40vw;
 }
 
 .contenedor_lista{
@@ -1046,20 +1016,18 @@ section{
     overflow: hidden;
 }
 
-
-
 .titulo_listas{
     min-width: 100%;
+    min-height: 3vw;
+    max-height: 5vw;
     background-color: #f7752f;
     border-radius:10px 5px 50px; 
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
     margin-left: 0.5vw;
     margin: 0em;
     display: inline-block;
-    align-content: center;
+    justify-content: right;
     padding: 0px;
-    display: flex;
-    flex-direction: row;
 }
 
 .titulo_listas p{
@@ -1067,7 +1035,7 @@ section{
     margin: 0px;
     margin-top: 0.3vw;
     padding: 0px;
-    font-size: 2vw; 
+    font-size: 5vw; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
     font-weight : bold;
@@ -1078,11 +1046,6 @@ section{
     text-indent: 0.2vw;
 }
 
-#paginaWeb1, #paginaWeb2, #paginaWeb3 {
-    height: 5vw;
-    padding: 0px;
-    margin: 0.2vw;
-}
 
 #paginaWeb1 :hover, #paginaWeb2 :hover, #paginaWeb3 :hover{
     border-color: rgb(2, 2, 2);
