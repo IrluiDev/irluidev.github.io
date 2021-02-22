@@ -1142,8 +1142,8 @@ footer p{
 }
 
 input[type="submit"]{
-    width: 20%;
-    height: 2.8vw;
+    width: 30%;
+    height: 5vw;
     display: flex;
     justify-content: center;
     font-size: 1.9vw; 
