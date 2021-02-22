@@ -1026,18 +1026,16 @@ footer p{
 
 .recuadro{
     background: rgba(255, 255, 255, 0.822);
-    max-width: 52%;
-    min-width: 50%;
-    max-height: 25%;
-    min-height: fit-content;
-    padding: 0em;
+    max-width: 75%;
+    min-width: 70%;
+    max-height: 30%;
+    min-height: 25%;
+    padding: 0.3vw;
     margin: 0vw;
     border-radius: 10px 5px 50px; 
-    border: 2px solid #9c99994f;
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
     overflow: hidden;
     border: 2vw solid #9c99994f;
-
 }
 
 .titulo_listas p{
@@ -1064,38 +1062,39 @@ footer p{
 
 .productos{
     margin: 0vw;
-    font-size: 1.9vw;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight : bold;
-    text-shadow: rgba(143, 142, 142, 0.596) 1px 1px 2px;
-    line-height: 2.3vw;
-    text-align: justify;
-    padding: 0.3vw 1.3vw;
-    display: inline-flex;
-    flex-flow: row wrap;
+    padding: 0.6vw 0vw 0vw;
     width: 100%;
-    height: 12vw;
-}
-
-.productos li{
-    color:#525150;
-    font-size: 3.2vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight : bold;
-    font-style: italic;
-    text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
-    line-height: 2vw;
-    text-align: justify;
-    padding: 0em;
-    margin: 0em;
-    width: 48%;
-    height: 5vw;
-    display: inline-flex;
+    height: 18vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     align-items: center;
 }
 
+.productos li{
+    padding: 0vw;
+    margin: 0vw;
+    width: 48%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.productos li p{
+    font-size: 3.5vw;
+    color: #292828;
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    margin: 0vw;
+    padding: 0px;
+    text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
+}
+
+
 .icono{
-    font-size: 2.6vw;
+    font-size: 3vw;
     color: #292828;
     display: inline-block;
     align-items: center;
@@ -1103,13 +1102,14 @@ footer p{
     height: max-content;
     margin: 0px;
     padding: 0px;
+    padding-right: 1.9vw;
     text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
+    flex-flow: column wrap;
+    align-items: center;
 }
 
-.icono i{
-    align-content: center;
-    display: flex;
-    justify-content: center;
+
+
 }
 
 .icono :hover{
