@@ -145,26 +145,21 @@ body{
 .imagen__Principal{
     margin: 0px;
     width: 100%;
-    height: 380vw;
+    height: 45vw;
     padding: 0px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #ff6919;
     overflow: hidden;
-    background-image: url(diseñoCuerpo.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-
-.imagen__Principal .imagen_cabecera {
-    height: 70vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
+.imagen__Principal img{
+    height: 100%;
     width: 100%;
+    background-size: auto;
+    position: absolute;
+    overflow: hidden;
 }
 
 .container_img{
@@ -174,7 +169,7 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: 230vw;
+    height: 180vw;
 }
 
 .container_img .banner1{
@@ -182,6 +177,11 @@ body{
     height: 32%;
     padding: 0em;
     border: 0em;
+    background-image: url(escritorio.png);
+    background-size: 125%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: max-content;
 }
 
 .container_img .banner2{
@@ -190,6 +190,11 @@ body{
     padding: 0em;
     border: 0em;
     overflow: hidden;
+    background-image: url(escritorio2.png);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: max-content;
 }
 
 .container_img  .banner3{
@@ -198,6 +203,11 @@ body{
     padding: 0em;
     border: 0em;
     overflow: hidden;
+    background-image: url(escritorio3.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-height: max-content;
 }
 
 
@@ -460,6 +470,8 @@ input[type="submit"]:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: linear-gradient(3deg, #fff, #ebd2b7, #f7a63dd7,  #d88d35, #ff6919);  
+
 }
 
 .tituloModelos{
@@ -516,7 +528,7 @@ input[type="submit"]:hover{
 
 .listaModelos li i{
     font-size: 2.3vw;
-    color: #000000;
+    color: #da9031;
     display: inline-block;
     align-items: center;
     width: 100%;
@@ -854,13 +866,48 @@ footer p{
     padding: 0px;
     width: 100%;
     height: 270vw;
-    background-image: url(diseñoCuerpo.jpg);
-    background-size: 100%;
+}
+
+.container_img  .banner1{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+    background-image: url(escritorio.png);
+    background-size: 169%;
     background-position: center;
     background-repeat: no-repeat;
     max-height: max-content;
 }
 
+.container_img .banner2{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+    overflow: hidden;
+    background-image: url(escritorio2.png);
+    background-size: 132%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: max-content;
+}
+
+.container_img  .banner3{
+    width: 100%;
+    height: 36%;
+    padding: 0em;
+    border: 0em;
+    display: block;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(escritorio3.png);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    max-height: max-content;
+}
 
 .banner1 .recuadro_textos{
     background: rgba(255, 255, 255, 0.719);
@@ -1117,7 +1164,19 @@ input[type="submit"]:hover{
     color: rgb(51, 51, 51);
 }
 /* DASHBOARD PRINCIPAL */
-
+.modelo{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: fit-content;
+    color: rgb(59, 55, 55);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(3deg, #fff, #ebd2b7, #f7a63dd7,  #d88d35, #ff6919);  
+}
 
 .tituloModelos{
     margin: 0px;
