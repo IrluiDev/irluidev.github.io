@@ -911,7 +911,7 @@ footer p{
     margin: 0%;
     margin-top: 5.4vw;
     border-radius:10px 5px 50px; 
-    max-height: 90%;
+    max-height: 100%;
     min-height: fit-content;
     width: 65%;
     max-width: 75%;
