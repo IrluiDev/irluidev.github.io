@@ -913,7 +913,7 @@ footer p{
     border-radius:10px 5px 50px; 
     max-height: 90%;
     min-height: fit-content;
-    min-width: 50%;
+    width: 50%;
     max-width: 75%;
     border:2px solid #9c99994f;
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
