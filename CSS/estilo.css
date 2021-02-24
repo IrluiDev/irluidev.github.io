@@ -933,7 +933,7 @@ footer p{
 
  .recuadro_textos ul, .recuadro_textos li{
     margin: 0em;
-    padding: 0em 2vw;
+    padding: 2vw 2vw;
     font-size: 2.6vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight : bold;
