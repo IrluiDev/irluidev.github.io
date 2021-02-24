@@ -204,7 +204,7 @@ body{
 
 
 .banner1 .recuadro_textos{
-    background: rgba(255, 255, 255, 0.719);
+    background: rgba(255, 255, 255, 0.89);
     position: absolute;
     right: 8vw;
     margin: 0%;
@@ -218,7 +218,7 @@ body{
 }
 
 .banner2 .recuadro_textos{
-    background: rgba(255, 255, 255, 0.719);
+    background: (255, 255, 255, 0.89);
     position: absolute;
     left: 10vw;
     margin: 0%;
@@ -306,7 +306,7 @@ body{
 }
 
 .contenedor_lista .recuadro{
-    background: rgba(255, 255, 255, 0.726);
+    background: (255, 255, 255, 0.89);
     max-width: 72%;
     max-height: 32%;
     min-height: fit-content;
@@ -999,7 +999,7 @@ footer p{
 }
 
 .contenedor_lista .recuadro{
-    background: rgba(255, 255, 255, 0.548);
+    background: (255, 255, 255, 0.89);
     max-width: 72%;
     max-height: 32%;
     min-height: fit-content;
