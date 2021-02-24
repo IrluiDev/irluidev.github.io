@@ -1168,7 +1168,7 @@ input[type="submit"]:hover{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: fit-content;
+    height: 80vw;
     color: rgb(59, 55, 55);
     width: 100%;
     display: flex;

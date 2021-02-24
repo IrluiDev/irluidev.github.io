@@ -15,6 +15,7 @@ body{
     background: #fff;
 
 }
+
 .cabecera{
     margin: 0px;
     height: 100%;
@@ -145,7 +146,7 @@ body{
 .imagen__Principal{
     margin: 0px;
     width: 100%;
-    height: 380vw;
+    height: 385vw;
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +205,7 @@ body{
 .banner1 .recuadro_textos{
     background: rgba(255, 255, 255, 0.719);
     position: absolute;
-    right: 10vw;
+    right: 8vw;
     margin: 0%;
     margin-top: 5.4vw;
     border-radius:10px 5px 50px; 
@@ -428,7 +429,7 @@ input[type="submit"]{
     height: 3.5vw;
     display: flex;
     justify-content: center;
-    font-size: 1.1vw; 
+    font-size: 1.9vw; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#ffffff;
     font-weight : bold;
@@ -453,51 +454,50 @@ input[type="submit"]:hover{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    min-height: 30vw;
-    max-height: 150vw;
+    height: 18vw;
     color: rgb(59, 55, 55);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-items: center;
 }
 
-.tituloModelos{
+.modelo .tituloModelos{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    height: 20%;
     display: flex;
     justify-content: center;
-
 }
 
 .tituloModelos h2{
     margin: 0px;
     padding: 0px;
-    margin-top: 1vw;
     align-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: floralwhite;
+    color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
-    font-size: 2.9vw;
+    font-weight: bold;
+    font-size: 3.5vw;
     overflow: hidden;
-    
 }
-.listaModelos{
+
+.modelo .listaModelos{
     margin: 0px;
+    padding: 0vw;
     width: 90%;
-    height: fit-content;
-    padding: 0px;
+    height: 25%;
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.listaModelos li{
+.modelo .listaModelos li{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -506,8 +506,9 @@ input[type="submit"]:hover{
     font-size: 1.2vw;
     color: rgb(43, 43, 43);
     align-content: space-around;
-    padding: 0px;
-    min-width: 15vw;
+    padding: 1px;
+    min-width: 22%;
+    margin-bottom: 2vw;
     border-color: rgb(2, 2, 2);
     border-radius:10px 5px 50px; 
     box-shadow: 2px 2px 8px rgb(240, 144, 0);
@@ -539,6 +540,7 @@ input[type="submit"]:hover{
     text-align: center;
     justify-content: center;
     font-size: 1.7vw;
+    line-height: 3vw;
     color: #3d3b3b;
     text-shadow: 2px 2px 6px rgba(223, 223, 223, 0.808); 
 }
@@ -830,20 +832,27 @@ footer p{
 .imagen__Principal{
     margin: 0px;
     width: 100%;
-    height: 80vw;
+    height: 445vw;
     padding: 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background: #ff6919;
-}
-.imagen__Principal img{
-    max-height: 100%;
-    width: 100%;
-    background-size: cover;
-    position: absolute;
+    flex-wrap: wrap;
+    flex-direction: column;
     overflow: hidden;
+    background-image: url(diseñoCuerpoPhone.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.imagen__Principal .imagen_cabecera {
+    height: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 .container_img{
@@ -854,18 +863,36 @@ footer p{
     padding: 0px;
     width: 100%;
     height: 270vw;
-    background-image: url(diseñoCuerpo.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height: max-content;
 }
 
+
+.container_img .banner1{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+}
+
+.container_img .banner2{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+    overflow: hidden;
+}
+
+.container_img  .banner3{
+    width: 100%;
+    height: 36%;
+    padding: 0em;
+    border: 0em;
+    overflow: hidden;
+}
 
 .banner1 .recuadro_textos{
     background: rgba(255, 255, 255, 0.719);
     position: absolute;
-    right: 10vw;
+    right: 8vw;
     margin: 0%;
     margin-top: 5.4vw;
     border-radius:10px 5px 50px; 
@@ -1093,10 +1120,10 @@ footer p{
 
 input[type="submit"]{
     width: 40%;
-    height: 6vw;
+    height: 6.5vw;
     display: flex;
     justify-content: center;
-    font-size: 1.9vw; 
+    font-size: 3vw; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#ffffff;
     font-weight : bold;
@@ -1118,12 +1145,24 @@ input[type="submit"]:hover{
 }
 /* DASHBOARD PRINCIPAL */
 
+.modelo{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 20vw;
+    color: rgb(59, 55, 55);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
 
-.tituloModelos{
+.modelo .tituloModelos{
     margin: 0px;
     padding: 0vw;
     width: 100%;
-    height: 38%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1136,24 +1175,24 @@ input[type="submit"]:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: floralwhite;
+    color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
+    font-weight: bold;
     font-size: 3.9vw;
     overflow: hidden;
 }
 
-.listaModelos{
+.modelo .listaModelos{
     margin: 0px;
-    width: 100%;
-    height: 62%;
     padding: 0vw;
+    width: 95%;
+    height: 20%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
-.listaModelos li{
+.modelo .listaModelos li{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -1163,23 +1202,23 @@ input[type="submit"]:hover{
     color: rgb(43, 43, 43);
     align-content: space-around;
     padding: 0px;
-    width: 40%;
-    height: 100%;
+    width: 35%;
+    margin-bottom: 5vw;
+    height: fit-content;
     border-color: rgb(2, 2, 2);
     border-radius:10px 5px 50px; 
     box-shadow: 2px 2px 8px rgb(240, 144, 0);
 }
 
 .listaModelos li i{
-    font-size: 3.3vw;
-    color: #da9031;
+    font-size: 4vw;
+    color: #050505;
     display: inline-block;
     align-items: center;
     width: 100%;
     height: max-content;
     margin: 0px;
-    padding: 0px;
-    text-shadow: 2px 2px 8px #36240c;   
+    padding: 0px;  
     background-color: rgba(124, 46, 10, 0.089);
 }
 
@@ -1190,18 +1229,18 @@ input[type="submit"]:hover{
 
 .listaModelos h3{
     margin: 0em;
-    padding: 0px;
+    padding: 0.3vw;
     display: inline-flex;
     text-align: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
     font-size: 2.8vw;
-    line-height: 2.5vw;
+    line-height: 3.5vw;
     font-weight : bold;
     font-style: italic;
     color: #3d3b3b;
-    width: 80%;
+    width: 100%;
     text-shadow: 2px 2px 6px rgba(223, 223, 223, 0.808); 
 }
 

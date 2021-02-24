@@ -1,3 +1,855 @@
+@font-face {
+    font-family: "LatoLatinWeb";
+    src: url(“font/fonts/LatoLatin-Hairline.eot”);
+    src: url(“font/fonts/LatoLatin-Hairline.eot”) format(“embedded-opentype”),
+    url(“font/fonts/LatoLatin-Hairline.woff”) format(“woff”),
+    url(“font/fonts/LatoLatin-Hairline.woff2”) format(“woff2”),
+    url(“font/fonts/LatoLatin-Hairline.ttf”) format(“truetype”);
+}
+
+body{
+    margin:0vw;
+    padding: 0vw;
+    display: block;
+    width: 100%;
+    background: #fff;
+
+}
+.cabecera{
+    margin: 0px;
+    height: 100%;
+    padding: 0;
+    width: 100%; 
+    background-color: #f6f6f6;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.cabecera header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-grow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0em;
+}
+
+.cabecera header img {
+    min-height: 10vw;
+    max-height: 13vw;
+}
+
+.cabecera header ul{
+    display: inline-flex;
+    justify-content: left;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    align-items: center;
+}
+
+.cabecera a{
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+}
+
+#lenguage{
+    font-size: 1vw;
+}
+
+#english{
+    font-size: 8vw;
+}
+
+.cabecera header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.9vw;
+    color: #999;
+}
+
+.cabecera header ul li i{
+    font-size: 6vw;
+    color: #999;
+}
+
+.cabecera header ul li:nth-child(2){
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+/*MAIN MENU*/
+
+.menu {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-main{
+    max-height: 6vw;
+    min-height: 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.menu-main a{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    align-items: center;
+    color: rgb(84, 84, 84);
+    font-weight: bold;
+    line-height: 2.5vw;
+    min-width: 10vw;
+    max-width: 15vw;
+}
+
+.menu-main i{
+    flex-direction: column wrap;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 0.5vw;
+    max-height: 5vmax;
+    min-height: 1vmax;
+}
+.menu-main .fas {
+    font-size: 2.5vw;
+    align-items: center;
+    color: rgb(84, 84, 84);
+}
+.menu-main a:hover{
+    background: rgba(0,0,0, .1);
+}
+
+.menu-main a.active{
+    background-color:  rgba(0,0,0, .1);
+}
+/*FIN MAIN MENU */
+
+/* MEDIA CENTRAL */
+.imagen__Principal{
+    margin: 0px;
+    width: 100%;
+    height: 380vw;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(diseñoCuerpo.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagen__Principal .imagen_cabecera {
+    height: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.container_img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 230vw;
+}
+
+.container_img .banner1{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+}
+
+.container_img .banner2{
+    width: 100%;
+    height: 32%;
+    padding: 0em;
+    border: 0em;
+    overflow: hidden;
+}
+
+.container_img  .banner3{
+    width: 100%;
+    height: 36%;
+    padding: 0em;
+    border: 0em;
+    overflow: hidden;
+}
+
+
+.banner1 .recuadro_textos{
+    background: rgba(255, 255, 255, 0.719);
+    position: absolute;
+    right: 10vw;
+    margin: 0%;
+    margin-top: 5.4vw;
+    border-radius:10px 5px 50px; 
+    max-height: fit-content;
+    min-height: 25%;
+    max-width: 50%;
+    border:2px solid #9c99994f;
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+}
+
+.banner2 .recuadro_textos{
+    background: rgba(255, 255, 255, 0.719);
+    position: absolute;
+    left: 10vw;
+    margin: 0%;
+    margin-top: 5.4vw;
+    border-radius:10px 5px 50px; 
+    max-height: fit-content;
+    min-width: 30%;
+    max-width: 40%;
+    border:2px solid #9c99994f;
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+}
+
+.recuadro_textos p{
+    color:#525150;
+    margin: 1vw;
+    font-size: 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    font-style: italic;
+    text-shadow: rgba(143, 142, 142, 0.315) 1px 1px 2px;
+    line-height: 3.5vw;
+    text-align: justify;
+    padding: 0em 1vw;
+}
+
+.recuadro_textos ul, .recuadro_textos li{
+    margin: 0em;
+    padding: 0em 2vw;
+    font-size: 1.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    line-height: 3.5vw;
+    text-align: start;
+    color: rgb(58, 58, 58);
+ }
+ .recuadro_textos h1{
+    margin: 0em;
+    padding: 2vw;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight : bold;
+    line-height: 3vw;
+    text-align: center;
+    color: #f7752f;
+ }
+
+ .recuadro_textos .titulo p{
+    width: 60%;
+    max-height: 3vw;
+    min-height: 2.5vw;
+    background-color: #f7752f;
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    color:#fff;
+    left: 20vw;
+ }
+
+
+.titulo .fas{
+    font-size: 2.3vw; 
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    color:#ffffff;
+    margin: 0px;
+    padding: 0px;
+    left: 110vw;
+    text-decoration-color: rgb(255, 255, 254);
+    text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
+}
+
+.banner3 .contenedor_lista{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 0vw;
+    padding: 1vw 0vw;
+    overflow: hidden;
+}
+
+.contenedor_lista .recuadro{
+    background: rgba(255, 255, 255, 0.726);
+    max-width: 72%;
+    max-height: 32%;
+    min-height: fit-content;
+    padding: -0.2vw;
+    margin: 0vw;
+    display: inline-block;
+    border-radius: 10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+    overflow: hidden;
+    border: 0.6vw solid #9c99994f;
+    overflow: hidden;
+}
+
+.recuadro .titulo_listas {
+    width: 80%;
+    max-height: 3.6vw;
+    min-height: 3.2vw;
+    background-color: #f7752f;
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+    margin: 0px;
+    padding: 0px;
+    padding-left: 3vw;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.recuadro .titulo_listas p{
+    font-size: 2.9vw; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-weight : bold;
+    font-style: italic;
+    text-decoration-color: rgb(255, 255, 254);
+    text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
+    padding: 0vw;
+    margin: 0vw;
+    overflow: hidden;
+}
+
+#paginaWeb1 :hover, #paginaWeb2 :hover, #paginaWeb3 :hover{
+    border-color: rgb(2, 2, 2);
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
+    color: rgb(51, 51, 51);
+}
+
+.productos li{
+    padding: 0vw;
+    margin: 0vw;
+    width: 48%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.productos li p{
+    font-size: 2.2vw;
+    color: #292828;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0vw;
+    padding: 0px;
+    text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
+    overflow: hidden;
+}
+
+.productos li i{
+    font-size: 2.2vw;
+    color: #292828;
+    display: inline-block;
+    align-items: center;
+    width: 3.5vw;
+    height: max-content;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.808);   
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.icono :hover{
+    color: #f7a02f;
+}
+
+.productos li {
+    height: fit-content;
+    padding: 0px;
+    margin: 0.2vw;
+}
+
+.productos li:hover{
+    border-color: rgb(2, 2, 2);
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0em;
+    margin-top: 0.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+input[type="submit"]{
+    width: 30%;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1vw; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff;
+    font-weight : bold;
+    text-shadow: rgba(211, 211, 211, 0.315) 1px 1px 2px;
+    box-shadow: 2px 2px 8px rgba(73, 73, 73, 0.801);
+    margin: 0;
+    padding: 0;
+    background: #F7752F;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+    border-radius:10px 50px 10px 50px; 
+    border: none;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #F7752F, #f7a02f, white, #f7a02f, #F7752F);
+    color: rgb(51, 51, 51);
+}
+/* DASHBOARD PRINCIPAL */
+.modelo{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 30vw;
+    max-height: 150vw;
+    color: rgb(59, 55, 55);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tituloModelos{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tituloModelos h2{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 1vw;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 2.9vw;
+    overflow: hidden;
+    
+}
+.listaModelos{
+    margin: 0px;
+    width: 90%;
+    height: fit-content;
+    padding: 0px;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listaModelos li{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0.2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2vw;
+    color: rgb(43, 43, 43);
+    align-content: space-around;
+    padding: 0px;
+    min-width: 15vw;
+    border-color: rgb(2, 2, 2);
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+    background: linear-gradient(70deg, #f7a02f, white, #f7a02f);
+}
+
+.listaModelos li i{
+    font-size: 2.3vw;
+    color: #000000;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 8px #36240c;   
+    background-color: rgba(124, 46, 10, 0.089);
+}
+
+.listaModelos .fas{
+    display: flex;
+    justify-content: center;
+}
+
+.listaModelos h3{
+    margin: 0em;
+    padding: 0px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.7vw;
+    color: #3d3b3b;
+    text-shadow: 2px 2px 6px rgba(223, 223, 223, 0.808); 
+}
+
+/*descarga y metodos de pago */
+ul, li{
+    list-style: none;
+}
+
+.listadoFinal{
+    height: 10vw;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listadoFinal ul{
+    width: 98%;
+    height: auto;
+    max-height: fit-content;
+    min-height: fit-content;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.listadoFinal li{
+    min-height: 1vw;
+    max-height: 4vw;
+    min-width: 10vw;
+    margin-bottom: 0.3vw;
+    margin: 0px;
+    margin-right: 1vw;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight : bold;
+    font-style: italic;
+    font-size: 1.8vw;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.listadoFinal p{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.piePagina{
+    width: 100%;
+    background: black;
+    height: 6.5vw;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+    margin: 0vmax;
+    padding: 0px;
+}
+
+.pagos, .redesSociales{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    height: 6vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.pagos ul, .redesSociales ul{
+    width: 100%;
+    height: 100%;
+    max-height: 10vw;
+    margin: 0vw;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.pagos li{
+    max-width: 5%;
+    min-width: 3%;
+    justify-content: space-around;
+}
+
+.pagos img{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    max-height: 3.5vw;
+    min-width: 2vw;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    font-size: 5vw;
+    left: 5vw;
+}
+
+.paypal{
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    align-self: center;
+}
+
+.bitcoin{
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+    align-self: center;
+    margin-bottom: 0.05vw;
+    right: 0.3vw;
+}
+
+.uphold{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 0.05vw;
+    align-self: center;
+
+}
+
+.pagos li, .redesSociales li{
+    margin: 0px;
+    padding: 0px;
+    min-width: 20%;
+    max-width: 33%;
+    height: fit-content;
+    flex-flow: column wrap;
+    align-items: center;
+    align-self: center;
+    margin-left: 0.3em;
+    color: #f7a02f;
+}
+
+.fab{
+    font-size: 5vw;
+}
+
+.menuFin {
+    width: 100%;
+    height: 3.5vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7a02f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menuFin ul {
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+    min-height: fit-content;
+    max-height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.menuFin li{
+    width: 33%;
+    height: max-content;
+    padding: 0px;
+    margin: 0px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight : bold;
+    font-size: 2.9vw;
+    text-justify: center;
+}
+
+.menuFin p{
+    text-align: center;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    z-index: 60;
+    width: auto;
+    height: 100%;
+    color:#868482;
+}
+
+footer p{
+    text-align: right;
+    padding: 0px 35px 0px;
+    font-size: 2.9vw;
+    font-family: monospace;
+}
+
+@media (max-width: 700px) and (min-width: 320px){
+    /*MAIN MENU**********************************************************/
+
+
+.menu {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-main{
+    height: 6vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.menu-main a{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    align-items: center;
+    color: rgb(84, 84, 84);
+    font-weight: bold;
+    line-height: 2.5vw;
+    min-width: 20vw;
+    max-width: 23vw;
+    height: 5vw;
+}
+
+.menu-main i{
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 1.3vw;
+    height: 5vw;
+}
+.menu-main .fas {
+    font-size: 3vw;
+}
+
+.menu-main p{
+    font-size: 3vw;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(84, 84, 84);
+    width: 30vw;
+    height: 5vw;
+}
+
+
+.menu-main p:hover{
+    color: rgba(212, 132, 28, 0.836);
+    box-shadow: 2px 2px 4px rgba(240, 144, 0, 0.753);
+}
+
+.menu-main a.active{
+    background-color:  rgba(70, 70, 70, 0.39);
+}
+/*FIN MAIN MENU */
+
+/* MEDIA CENTRAL */
+.imagen__Principal{
+    margin: 0px;
+    width: 100%;
+    height: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(diseñoCuerpo.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagen__Principal .imagen_cabecera {
+    height: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
 
 .container_img{
     display: flex;
@@ -7,60 +859,38 @@
     padding: 0px;
     width: 100%;
     height: 270vw;
-}
-
-.banner1{
-    width: 100%;
-    height: 32%;
-    padding: 0em;
-    border: 0em;
-    background-image: url(escritorio.png);
-    background-size: 169%;
+    background-image: url(diseñoCuerpo.jpg);
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     max-height: max-content;
 }
 
-.banner2{
-    width: 100%;
-    height: 32%;
-    padding: 0em;
-    border: 0em;
-    overflow: hidden;
-    background-image: url(escritorio2.png);
-    background-size: 132%;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height: max-content;
-}
 
-.banner3{
-    width: 100%;
-    height: 36%;
-    padding: 0em;
-    border: 0em;
-    display: block;
-    align-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-image: url(escritorio3.png);
-    background-position: center;
-    background-size: 150%;
-    background-repeat: no-repeat;
-    max-height: max-content;
-}
-
-.recuadro_textos{
-    background: rgba(255, 255, 255, 0.822);
-    align-items: stretch;
+.banner1 .recuadro_textos{
+    background: rgba(255, 255, 255, 0.719);
     position: absolute;
-    right: 5vw;
-    margin-top: 10vw;
-    margin-right: 0.7vw;
+    right: 10vw;
+    margin: 0%;
+    margin-top: 5.4vw;
     border-radius:10px 5px 50px; 
     max-height: fit-content;
-    min-width: 62%;
-    border: 4vw solid #9c99994f;
+    min-height: 25%;
+    max-width: 50%;
+    border:2px solid #9c99994f;
+    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
+}
+
+.banner2 .recuadro_textos{
+    background: rgba(255, 255, 255, 0.719);
+    position: absolute;
+    left: 2vw;
+    margin: 0%;
+    margin-top: 5.4vw;
+    border-radius:10px 5px 50px; 
+    max-height: 90%;
+    max-width: 50%;
+    border:2px solid #9c99994f;
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
 }
 
@@ -75,21 +905,22 @@
     text-align: justify;
     padding: 0em 2vw;
 }
+
  .recuadro_textos ul, .recuadro_textos li{
     margin: 0em;
     padding: 0em 2vw;
-    font-size: 3vw;
+    font-size: 2.6vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight : bold;
     line-height: 5vw;
-    text-align: justify;
+    text-align: start;
     color: rgb(58, 58, 58);
  }
 
  .recuadro_textos h1{
     margin: 0em;
-    padding: 2vw;
-    font-size: 3.5vw;
+    padding: 0vw;
+    font-size: 3.3vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight : bold;
     line-height: 5vw;
@@ -97,40 +928,59 @@
     color: #f7752f;
  }
 
-.titulo, .titulo_listas{
+ .recuadro_textos .titulo{
+     margin: 0px;
+     padding: 0px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     border-radius:10px 5px 50px; 
+     box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+ }
+
+ .recuadro_textos .titulo p{
     width: 80%;
-    max-height: 7vw;
-    min-height: 6vw;
-    background-color: #f7752f;
-    border-radius:10px 5px 50px; 
-    box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+    max-height: 100%;
+    justify-content: center;
     margin: 0px;
     padding: 0px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
+    color:#fff;
 }
 
-.titulo p{
-    font-size: 4.5vw; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.titulo .fas{
+    font-size: 2.3vw; 
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
     color:#ffffff;
-    line-height: 2vw;
-    font-weight : bold;
-    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+    left: 110vw;
     text-decoration-color: rgb(255, 255, 254);
     text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
-    flex-flow: column wrap;
-    align-items: center;
+}
+
+.banner3 .contenedor_lista{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 0vw;
+    padding: 1vw 0vw;
+    overflow: hidden;
 }
 
 .contenedor_lista .recuadro{
-    background: rgba(255, 255, 255, 0.726);
+    background: rgba(255, 255, 255, 0.548);
     max-width: 72%;
     max-height: 32%;
     min-height: fit-content;
-    padding: -0.3vw;
+    padding: -0.2vw;
     margin: 0vw;
     display: inline-block;
     border-radius: 10px 5px 50px; 
@@ -138,38 +988,34 @@
     overflow: hidden;
     border: 0.6vw solid #9c99994f;
     overflow: hidden;
-    background: rgb(121, 6, 102);
 }
 
 .recuadro .titulo_listas {
-    background: rgba(255, 255, 255, 0.726);
-    max-width: 75%;
-    max-height: 30%;
-    min-height: 25%;
-    padding: -0.3vw;
-    margin: 0vw;
-    left: 20vw;
-    border-radius: 10px 5px 50px; 
-    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
-    overflow: hidden;
-    border: 1vw solid #9c99994f;
-    overflow: hidden;
+    width: 80%;
+    max-height: 3.6vw;
+    min-height: 3.2vw;
+    background-color: #f7752f;
+    border-radius:10px 5px 50px; 
+    box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+    margin: 0px;
+    padding: 0px;
+    padding-left: 3vw;
+    align-self: flex-start;
+    justify-content: center;
 }
 
 .recuadro .titulo_listas p{
-    font-size: 5.5vw; 
+    font-size: 2.9vw; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
-    line-height: 2vw;
     font-weight : bold;
     font-style: italic;
     text-decoration-color: rgb(255, 255, 254);
     text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
-    flex-flow: column wrap;
-    align-items: center;
+    padding: 0vw;
+    margin: 0vw;
     overflow: hidden;
 }
-
 
 #paginaWeb1 :hover, #paginaWeb2 :hover, #paginaWeb3 :hover{
     border-color: rgb(2, 2, 2);
@@ -251,8 +1097,8 @@
 }
 
 input[type="submit"]{
-    width: 30%;
-    height: 5vw;
+    width: 40%;
+    height: 6vw;
     display: flex;
     justify-content: center;
     font-size: 1.9vw; 
@@ -275,88 +1121,283 @@ input[type="submit"]:hover{
     background: linear-gradient(70deg, #F7752F, #f7a02f, white, #f7a02f, #F7752F);
     color: rgb(51, 51, 51);
 }
+/* DASHBOARD PRINCIPAL */
 
 
-
-recuadro_textos .titulo p{
-    width: 60%;
-    max-height: 3vw;
-    min-height: 2.5vw;
-    background-color: #f7752f;
-    border-radius:10px 5px 50px; 
-    box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+.tituloModelos{
     margin: 0px;
-    padding: 0px;
-    justify-content: center;
-    color:#fff;
-    left: 20vw;
-    background-color: brown;
-}
-
-
-.titulo .fas{
-    font-size: 2.3vw; 
+    padding: 0vw;
+    width: 100%;
+    height: 38%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    justify-self: center;
-    color:#ffffff;
-    margin: 0px;
-    padding: 0px;
-    left: 110vw;
-    text-decoration-color: rgb(255, 255, 254);
-    text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
 }
 
-.banner3 .contenedor_lista{
-    width: 100%;
-    height: 80%;
+.tituloModelos h2{
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 3.9vw;
+    overflow: hidden;
+}
+
+.listaModelos{
+    margin: 0px;
+    width: 100%;
+    height: 62%;
+    padding: 0vw;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-items: flex-end;
-    margin: 0vw;
-    padding: 1vw 0vw;
-    overflow: hidden;
 }
 
-.contenedor_lista .recuadro{
-    background: rgba(255, 255, 255, 0.726);
-    max-width: 72%;
-    max-height: 32%;
-    min-height: fit-content;
-    padding: -0.2vw;
-    margin: 0vw;
-    display: inline-block;
-    border-radius: 10px 5px 50px; 
-    box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
-    overflow: hidden;
-    border: 0.6vw solid #9c99994f;
-    overflow: hidden;
-}
-
-.recuadro .titulo_listas {
-    width: 80%;
-    max-height: 3.6vw;
-    min-height: 3.2vw;
-    background-color: #f7752f;
+.listaModelos li{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0.2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5vw;
+    color: rgb(43, 43, 43);
+    align-content: space-around;
+    padding: 0px;
+    width: 40%;
+    height: 100%;
+    border-color: rgb(2, 2, 2);
     border-radius:10px 5px 50px; 
-    box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
+    box-shadow: 2px 2px 8px rgb(240, 144, 0);
+}
+
+.listaModelos li i{
+    font-size: 3.3vw;
+    color: #da9031;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: max-content;
     margin: 0px;
     padding: 0px;
-    padding-left: 3vw;
-    align-self: flex-start;
+    text-shadow: 2px 2px 8px #36240c;   
+    background-color: rgba(124, 46, 10, 0.089);
+}
+
+.listaModelos .fas{
+    display: flex;
     justify-content: center;
 }
 
-.recuadro .titulo_listas p{
-    font-size: 2.9vw; 
+.listaModelos h3{
+    margin: 0em;
+    padding: 0px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
+    font-size: 2.8vw;
+    line-height: 2.5vw;
     font-weight : bold;
     font-style: italic;
-    text-decoration-color: rgb(255, 255, 254);
-    text-shadow: rgba(133, 131, 131, 0.808) 3px 3px 6px;
-    padding: 0vw;
-    margin: 0vw;
+    color: #3d3b3b;
+    width: 80%;
+    text-shadow: 2px 2px 6px rgba(223, 223, 223, 0.808); 
+}
+
+/*descarga y metodos de pago */
+ul, li{
+    list-style: none;
+}
+
+.listadoFinal{
+    height: 8vw;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
+}
+
+.listadoFinal ul{
+    width: 80%;
+    height: 100%;
+    margin: 0px;
+    padding: 0vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.listadoFinal li{
+    height: 3vw;
+    width: 20%;
+    margin-bottom: 0.3vw;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight : bold;
+    font-style: italic;
+    font-size: 1.8vw;
+    align-items: center;
+    text-align: center;
+}
+
+.listadoFinal p{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.piePagina{
+    width: 100%;
+
+    height: 12vw;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 0vw;
+    padding: 0px;
+}
+
+.pagos, .redesSociales{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.pagos ul{
+    background: #ffffff;
+}
+
+.pagos ul, .redesSociales ul{
+    width: 100%;
+    height: 100%;
+    margin: 0vw;
+    padding: 0px;
+}
+
+.pagos li{
+    max-width: 5%;
+    min-width: 3%;
+}
+
+.pagos img{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    max-height: 3.5vw;
+    min-width: 2vw;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    font-size: 5vw;
+}
+
+.paypal{
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    align-self: center;
+}
+
+.bitcoin{
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+    align-self: center;
+    margin-bottom: 0.05vw;
+    right: 0.3vw;
+}
+
+.uphold{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 0.05vw;
+    align-self: center;
+
+}
+
+.pagos li, .redesSociales li{
+    margin: 0px;
+    padding: 0px;
+    min-width: 20%;
+    max-width: 33%;
+    height: fit-content;
+    flex-flow: column wrap;
+    align-items: center;
+    align-self: center;
+    margin-left: 0.3em;
+    color: #f7a02f;
+}
+
+.fab{
+    font-size: 5vw;
+}
+
+.menuFin {
+    width: 100%;
+    height: 3.5vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7a02f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menuFin ul {
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+    min-height: fit-content;
+    max-height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.menuFin li{
+    width: 33%;
+    height: max-content;
+    padding: 0px;
+    margin: 0px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight : bold;
+    font-size: 2.9vw;
+    text-justify: center;
+}
+
+.menuFin p{
+    text-align: center;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    z-index: 60;
+    width: auto;
+    height: 100%;
+    color:#868482;
+}
+
+footer p{
+    text-align: right;
+    padding: 0px 35px 0px;
+    font-size: 2.9vw;
+    font-family: monospace;
+}
 }
