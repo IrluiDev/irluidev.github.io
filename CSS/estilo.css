@@ -246,7 +246,7 @@ body{
 
 .recuadro_textos ul, .recuadro_textos li{
     margin: 0em;
-    padding: 0em 2vw;
+    padding: 2vw 2vw;
     font-size: 1.5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight : bold;
@@ -273,7 +273,7 @@ body{
     border-radius:10px 5px 50px; 
     box-shadow: 2px 2px 8px rgba(75, 74, 74, 0.863);
     margin: 0px;
-    padding: 0px;
+    padding: 2vw;
     justify-content: center;
     color:#fff;
     left: 20vw;
@@ -913,7 +913,7 @@ footer p{
     border-radius:10px 5px 50px; 
     max-height: 100%;
     min-height: fit-content;
-    width: 65%;
+    width: 68%;
     max-width: 75%;
     border:2px solid #9c99994f;
     box-shadow: 2px 2px 8px rgba(92, 91, 91, 0.705);
@@ -955,7 +955,7 @@ footer p{
 
  .recuadro_textos .titulo{
      margin: 0px;
-     padding: 0px;
+     padding: 1vw;
      display: flex;
      flex-direction: row;
      align-items: center;
