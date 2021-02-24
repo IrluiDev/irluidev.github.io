@@ -204,7 +204,7 @@ body{
 
 
 .banner1 .recuadro_textos{
-    background: rgba(255, 255, 255, 0.89);
+    background: rgb(255, 255, 255);
     position: absolute;
     right: 8vw;
     margin: 0%;
@@ -218,7 +218,7 @@ body{
 }
 
 .banner2 .recuadro_textos{
-    background: (255, 255, 255, 0.89);
+    background: rgb(255, 255, 255);
     position: absolute;
     left: 10vw;
     margin: 0%;
@@ -306,7 +306,7 @@ body{
 }
 
 .contenedor_lista .recuadro{
-    background: (255, 255, 255, 0.89);
+    background: rgb(255, 255, 255);
     max-width: 72%;
     max-height: 32%;
     min-height: fit-content;
@@ -891,7 +891,7 @@ footer p{
 }
 
 .banner1 .recuadro_textos{
-    background: rgba(255, 255, 255, 0.719);
+    background: rgb(255, 255, 255);
     position: absolute;
     right: 8vw;
     margin: 0%;
@@ -905,7 +905,7 @@ footer p{
 }
 
 .banner2 .recuadro_textos{
-    background: rgba(255, 255, 255, 0.719);
+    background: rgb(255, 255, 255);
     position: absolute;
     left: 2vw;
     margin: 0%;
@@ -999,7 +999,7 @@ footer p{
 }
 
 .contenedor_lista .recuadro{
-    background: (255, 255, 255, 0.89);
+    background: rgb(255, 255, 255);
     max-width: 72%;
     max-height: 32%;
     min-height: fit-content;
